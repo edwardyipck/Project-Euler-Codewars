@@ -1,1 +1,1 @@
-# Project-Euler-Codewars
+# Project-Euler and Codewars
