@@ -1,0 +1,15 @@
+t=[]
+p=[]
+h=[]
+same=[]
+for i in range(100000):
+    t.append(i*(i+1)/2)
+    p.append(i*(3*i-1)/2)
+    h.append(i*(2*i-1))
+
+for i in t:
+    if i in p:
+        if i in h:
+            same.append(i)
+        
+print(same)
