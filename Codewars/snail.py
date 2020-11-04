@@ -47,4 +47,5 @@ def snail(snail_map):
             o = 0 
             
     snail.append(int(a[0]))
+    
     return list(snail)
